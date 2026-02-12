@@ -1,21 +1,25 @@
 {
-  "name": "gildedtros",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "build": "tsc",
-    "prestart": "npm run build",
-    "start": "node dist/test/text-test-fixture.js",
-    "test": "jest",
-    "test:watch": "jest --watchAll"
-  },
-  "license": "MIT",
-  "private": true,
-  "devDependencies": {
-    "@swc/core": "^1.15.11",
-    "@swc/jest": "^0.2.39",
-    "@types/jest": "^30.0.0",
-    "jest": "^30.2.0",
-    "typescript": "^5.9.3"
-  }
+	"name": "gildedtros",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsc",
+		"prestart": "npm run build",
+		"start": "node dist/test/text-test-fixture.js",
+		"test": "jest",
+		"test:watch": "jest --watchAll",
+		"lint": "biome check .",
+		"lint:fix": "biome check --write .",
+		"format": "biome format --write ."
+	},
+	"license": "MIT",
+	"private": true,
+	"devDependencies": {
+		"@biomejs/biome": "^2.3.14",
+		"@swc/core": "^1.15.11",
+		"@swc/jest": "^0.2.39",
+		"@types/jest": "^30.0.0",
+		"jest": "^30.2.0",
+		"typescript": "^5.9.3"
+	}
 }

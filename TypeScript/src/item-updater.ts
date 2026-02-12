@@ -1,5 +1,5 @@
-import { Item } from './item';
+import type { Item } from "./item";
 
 export interface ItemUpdater {
-  update(item: Item): void;
+	update(item: Item): void;
 }
