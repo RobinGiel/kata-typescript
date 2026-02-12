@@ -1,5 +1,5 @@
-import type { Item } from "../item";
-import { StandardItemUpdater } from "./standard-item-updater";
+import type { Item } from "@/item";
+import { StandardItemUpdater } from "@/updaters/standard-item-updater";
 
 export class GoodWineUpdater extends StandardItemUpdater {
 	protected updateQuality(item: Item): void {

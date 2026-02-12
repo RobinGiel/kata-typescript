@@ -1,6 +1,6 @@
-import { SellInThresholds } from "../constants";
-import type { Item } from "../item";
-import { StandardItemUpdater } from "./standard-item-updater";
+import { SellInThresholds } from "@/constants";
+import type { Item } from "@/item";
+import { StandardItemUpdater } from "@/updaters/standard-item-updater";
 
 export class BackstagePassUpdater extends StandardItemUpdater {
 	protected updateQuality(item: Item): void {

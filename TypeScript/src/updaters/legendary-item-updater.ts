@@ -1,5 +1,5 @@
-import type { Item } from "../item";
-import type { ItemUpdater } from "../item-updater";
+import type { Item } from "@/item";
+import type { ItemUpdater } from "@/item-updater";
 
 export class LegendaryItemUpdater implements ItemUpdater {
 	update(_item: Item): void {

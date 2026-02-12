@@ -1,11 +1,11 @@
-import { ItemNames } from "./constants";
-import type { Item } from "./item";
-import type { ItemUpdater } from "./item-updater";
-import { BackstagePassUpdater } from "./updaters/backstage-pass-updater";
-import { GoodWineUpdater } from "./updaters/good-wine-updater";
-import { LegendaryItemUpdater } from "./updaters/legendary-item-updater";
-import { SmellyItemUpdater } from "./updaters/smelly-item-updater";
-import { StandardItemUpdater } from "./updaters/standard-item-updater";
+import { ItemNames } from "@/constants";
+import type { Item } from "@/item";
+import type { ItemUpdater } from "@/item-updater";
+import { BackstagePassUpdater } from "@/updaters/backstage-pass-updater";
+import { GoodWineUpdater } from "@/updaters/good-wine-updater";
+import { LegendaryItemUpdater } from "@/updaters/legendary-item-updater";
+import { SmellyItemUpdater } from "@/updaters/smelly-item-updater";
+import { StandardItemUpdater } from "@/updaters/standard-item-updater";
 
 export class ItemUpdaterFactory {
 	private static readonly BACKSTAGE_PASSES: readonly string[] = [

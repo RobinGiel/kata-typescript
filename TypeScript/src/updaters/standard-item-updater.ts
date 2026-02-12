@@ -1,6 +1,6 @@
-import { QualityLimits } from "../constants";
-import type { Item } from "../item";
-import type { ItemUpdater } from "../item-updater";
+import { QualityLimits } from "@/constants";
+import type { Item } from "@/item";
+import type { ItemUpdater } from "@/item-updater";
 
 export class StandardItemUpdater implements ItemUpdater {
 	constructor(private qualityDegradationRate: number = 1) {}

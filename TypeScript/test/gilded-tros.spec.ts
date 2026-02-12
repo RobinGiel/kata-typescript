@@ -1,6 +1,6 @@
-import { ItemNames, QualityLimits } from "../src/constants";
-import { GildedTros } from "../src/gilded-tros";
-import { Item } from "../src/item";
+import { ItemNames, QualityLimits } from "@/constants";
+import { GildedTros } from "@/gilded-tros";
+import { Item } from "@/item";
 
 describe("GildedTros", () => {
 	describe("Standard Items", () => {

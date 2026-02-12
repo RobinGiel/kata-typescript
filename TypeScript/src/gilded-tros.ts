@@ -1,5 +1,5 @@
-import type { Item } from "./item";
-import { ItemUpdaterFactory } from "./item-updater-factory";
+import type { Item } from "@/item";
+import { ItemUpdaterFactory } from "@/item-updater-factory";
 
 export class GildedTros {
 	constructor(public items: Array<Item>) {}

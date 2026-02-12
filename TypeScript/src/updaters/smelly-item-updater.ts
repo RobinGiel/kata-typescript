@@ -1,4 +1,4 @@
-import { StandardItemUpdater } from "./standard-item-updater";
+import { StandardItemUpdater } from "@/updaters/standard-item-updater";
 
 export class SmellyItemUpdater extends StandardItemUpdater {
 	constructor() {
